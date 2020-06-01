@@ -1,0 +1,20 @@
+Comment s'appelle la branche par défaut d'un dépôt git ?
+Comment changer de branche sous git ?
+Quelle commande me permet de créer un dépôt local à partir d'un dépôt distant ?
+Comment vérifier l'état de l'index de son dépôt local ?
+Quel enchaînement de commandes me permet de partager une version de code sur GitHub ?
+Comment afficher la liste des commits effectués sur la branche en cours ?
+Quelle commande permet de se placer à la racine du système de fichier ?
+Quelle commande permet de se placer dans le dossier personnel de l'utilisateur courant ?
+Comment effacer l'écran de son terminal ?
+Quelle commande permet de créer un fichier vide `README.md` ?
+Quelle commande permet de supprimer un répertoire et tous les fichiers qu'il contient ?
+Quelle est la valeur de l'expression `false || !false` ?
+Comment écrire de façon plus concise `i = i + 5` ?
+Que signifie le terme concaténation ?
+De quelle façon peut-on récupérer le nombre d'éléments d'un tableau nommé `students` ?
+En Java, quelle est la valeur de 21 / 100 ?
+Quelle est la signature de la méthode `main` d'une classe ?
+Qu'est-ce qu'une référence ?
+Quelle règle de nommage dois-je appliquer au nom d'une classe ?
+Quelle est la dernière version de Java ?
