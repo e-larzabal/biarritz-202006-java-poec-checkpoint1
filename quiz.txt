@@ -1,0 +1,60 @@
+1. Comment s'appelle la branche par défaut d'un dépôt git ?
+master
+
+2. Comment changer de branche sous git ?
+git checkout {branche}
+
+3. Quelle commande me permet de créer un dépôt local à partir d'un dépôt distant ?
+git clone {URL du dépôt distant}
+
+4. Comment vérifier l'état de l'index de son dépôt local ?
+git status
+
+5. Quel enchaînement de commandes me permet de partager une version de code sur GitHub ?
+git pull ; git push origin master ;
+
+6. Comment afficher la liste des commits effectués sur la branche en cours ?
+git log
+
+7. Quelle commande permet de se placer à la racine du système de fichier ?
+cd /
+
+8. Quelle commande permet de se placer dans le dossier personnel de l'utilisateur courant ?
+cd ou cd ~
+
+9. Comment effacer l'écran de son terminal ?
+clear
+
+10. Quelle commande permet de créer un fichier vide `README.md` ?
+touch README.md
+
+11. Quelle commande permet de supprimer un répertoire et tous les fichiers qu'il contient ?
+rm -rf monRepertoire
+
+12. Quelle est la valeur de l'expression `false || !false` ?
+true
+
+13. Comment écrire de façon plus concise `i = i + 5` ?
+i += 5
+
+14. Que signifie le terme concaténation ?
+mettre bout à bout deux chaines de caractères pour n'en faire qu'une qui contient les deux chaines
+
+15. De quelle façon peut-on récupérer le nombre d'éléments d'un tableau nommé `students` ?
+students.lenght
+
+16. En Java, quelle est la valeur de 21 / 100 ?
+0 (un entier qui divise un entier donne un résultat entier)
+
+17. Quelle est la signature de la méthode `main` d'une classe ?
+{portée} abstractinterface] class {nom_de_la_classe} extends {nom_de_la classe} implements {nom_de_l_interface}
+
+18. Qu'est-ce qu'une référence ?
+un lien vers une instance d'une classe, une assignation d'une instance à une variable
+
+19. Quelle règle de nommage dois-je appliquer au nom d'une classe ?
+camelCase, initiale en majuscule, en anglais
+
+20. Quelle est la dernière version de Java ?
+14
+
