@@ -8,6 +8,7 @@ public class Student {
     private String firstName;
     private String lastName;
     private int age;
+    private int number;
 
     public Student() {
     }
@@ -51,9 +52,22 @@ public class Student {
         this.age = age;
     }
 
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
     static boolean hasLegalAge(int age){
         if ( age >= 18 ) { return true; } else { return false;}
     }
+
+    static  char getGroup(int number){
+        if ( (number % 2) == 0 ) { return 'A'; } else { return 'B';}
+    }
+
 }
 
 

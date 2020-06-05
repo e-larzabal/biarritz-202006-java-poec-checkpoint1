@@ -24,12 +24,12 @@ public class StudentTest extends TestCase {
 
     @Test
     public void testEven() throws Exception {
-//        assertEquals('A', Student.getGroup(12));
+        assertEquals('A', Student.getGroup(12));
     }
 
     @Test
     public void testOdd() throws Exception {
-//        assertEquals('B', Student.getGroup(23));
+        assertEquals('B', Student.getGroup(23));
     }
 
     @Test
