@@ -68,6 +68,16 @@ public class Student {
         if ( (number % 2) == 0 ) { return 'A'; } else { return 'B';}
     }
 
+    static int countStudents(String[] arrayLang){
+        int numberStudentsInJava = 0;
+
+        for (int i=0 ; i < arrayLang.length ; i++){
+            String language = arrayLang[i].toUpperCase().trim();
+            if ( language.equals("JAVA") ) { numberStudentsInJava++; }
+        }
+
+        return numberStudentsInJava;
+    }
 }
 
 
