@@ -9,17 +9,17 @@ public class StudentTest extends TestCase {
 
     @Test
     public void testTrue() throws Exception {
-//        assertEquals(true, true);
+        assertEquals(true, true);
     }
 
     @Test
     public void testNotLegal() throws Exception {
-//        assertEquals(false, Student.hasLegalAge(11));
+        assertEquals(false, Student.hasLegalAge(11));
     }
 
     @Test
     public void testLegal() throws Exception {
-//        assertEquals(true, Student.hasLegalAge(21));
+        assertEquals(true, Student.hasLegalAge(21));
     }
 
     @Test
