@@ -57,6 +57,8 @@ public class Inventory {
         System.out.println("");
         System.out.println("*** overall bonus ***");
         // TODO - replace me with better code...
+        int bonus = 0;
+
         System.out.println("TODO!");
     }
 

@@ -15,7 +15,6 @@ public class ItemLoader {
 
         // todo - create here new instances of your items
         items.add(new Armor("sword", 1, 2, 3, 4));
-        //items.add(new Armor("dagger", 7, 2, 9, 1));
         items.add(new Ring("magic ring", 5, 2, 3, 1));
     }
 

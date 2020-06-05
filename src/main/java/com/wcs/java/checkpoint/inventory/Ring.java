@@ -1,6 +1,6 @@
 package com.wcs.java.checkpoint.inventory;
 
-public class Ring implements Item {
+public class Ring extends AbstractItem implements Item {
 
     private int intelligence;
     private int agility;
@@ -9,11 +9,7 @@ public class Ring implements Item {
     private String description;
 
     public Ring(String description, int intelligence, int agility, int strength, int resistance) {
-        this.intelligence = intelligence;
-        this.agility = agility;
-        this.strength = strength;
-        this.resistance = resistance;
-        this.description = description;
+       super(description, intelligence, agility, strength, resistance);
     }
 
     @Override
@@ -44,4 +40,5 @@ public class Ring implements Item {
     public int getResistanceBonus() {
         return resistance;
     }
+
 }
