@@ -1,0 +1,11 @@
+mysql> SELECT city, count(id_dish) FROM restaurant r JOIN menu m ON r.id = m.id_restaurant JOIN menu_dish md ON m.id = md.id_menu GROUP BY city ORDER BY city;
++--------------+----------------+
+| city         | count(id_dish) |
++--------------+----------------+
+| Fonjoncouse  |              1 |
+| Ouches       |              4 |
+| Paris        |             28 |
+| Saint Tropez |              5 |
+| Tinqueux     |              2 |
++--------------+----------------+
+5 rows in set (0.00 sec)

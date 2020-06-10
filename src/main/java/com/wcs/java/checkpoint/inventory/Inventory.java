@@ -57,7 +57,13 @@ public class Inventory {
         System.out.println("");
         System.out.println("*** overall bonus ***");
         // TODO - replace me with better code...
-        System.out.println("TODO!");
+
+        int bonusIntelligence = armor.getIntelligenceBonus() + boots.getIntelligenceBonus();
+        int bonusAgility      = armor.getAgilityBonus()      + boots.getAgilityBonus();
+        int bonusStrength     = armor.getStrengthBonus()     + boots.getStrengthBonus();
+        int bonusResistance   = armor.getResistanceBonus()   + boots.getResistanceBonus();
+
+        System.out.println(return "INT=" + bonusIntelligence + " AGI=" + bonusAgility + " STR=" + bonusStrength + " RES=" + bonusResistance);
     }
 
 

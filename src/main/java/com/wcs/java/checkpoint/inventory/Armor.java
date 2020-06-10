@@ -1,6 +1,6 @@
 package com.wcs.java.checkpoint.inventory;
 
-public class Boots extends AbstractItem implements Item {
+public class Armor extends AbstractItem implements Item {
 
     private int intelligence;
     private int agility;
@@ -8,35 +8,34 @@ public class Boots extends AbstractItem implements Item {
     private int resistance;
     private String description;
 
-    public Boots(String description, int intelligence, int agility, int strength, int resistance) {
+    public Armor(String description, int intelligence, int agility, int strength, int resistance) {
         super(description, intelligence, agility, strength, resistance);
     }
 
     @Override
-    public ItemType getType() {
-        return ItemType.BOOTS;
+    public ItemType getType() { return ItemType.ARMOR; }
+
+    @Override
+    public String getDescription() { return this.description; }
+
+    @Override
+    public String getBonusDescription() {
+        return "INT=" + this.intelligence + " AGI=" + this.agility + " STR=" + this.strength + " RES=" + this.resistance;
     }
 
     @Override
-    public String getDescription() {
-        return description;
-    }
+    public int getIntelligenceBonus() { return this.intelligence; }
+
     @Override
-    public String getBonusDescription() {
-        return "INT=" + intelligence + " AGI=" + agility + " STR=" + strength + " RES=" + resistance;
+    public int getAgilityBonus()  {
+        return this.agility;
     }
-    @Override
-    public int getIntelligenceBonus() {
-        return intelligence;
-    }
-    @Override
-    public int getAgilityBonus() {
-        return agility;
-    }
+
     @Override
     public int getStrengthBonus() {
         return strength;
     }
+
     @Override
     public int getResistanceBonus() {
         return resistance;
